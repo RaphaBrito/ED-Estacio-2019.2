@@ -9,4 +9,4 @@
 
 
 ####  Prof. M.Sc. Raphael Brito
-##### [https://www.raphaelbrito.com/class/](https://www.raphaelbrito.com/class/ "https://www.raphaelbrito.com/class/")
+##### [https://www.raphaelbrito.com/](https://www.raphaelbrito.com/ "https://www.raphaelbrito.com/")
