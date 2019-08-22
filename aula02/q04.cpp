@@ -14,7 +14,7 @@ int main()
         string disciplinas[4];
         float notas[3];
     };
-    int TAM = 2;
+    int TAM = 3;
     Alunos aluno[TAM];
 
     for (int i = 0; i < TAM; i++)
