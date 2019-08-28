@@ -13,7 +13,7 @@ int maiorDeTres(int n1, int n2, int n3)
     {
         maior = n2;
     }
-    if (maior < n3)
+    if (n3 > maior)
     {
         maior = n3;
     }
@@ -23,7 +23,7 @@ int maiorDeTres(int n1, int n2, int n3)
 
 int main()
 {
-    int n1, n2, n3 = 0;
+    int n1, n2, n3;
     int maior_de_tres=0;
     cout << "DIGITE O VALOR (1): ";
     cin >> n1;

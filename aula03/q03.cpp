@@ -2,6 +2,31 @@
 
 using namespace std;
 
+int par(int n);
+int impar(int n);
+
+int main()
+{
+    int n = 0;
+    cout << "DIGITE UM NUMERO INTEIRO: ";
+    cin >> n;
+    cout << endl;
+    
+    if(par(n)){
+        cout << n << " é par!" << endl;
+    }else {
+        cout << n << " não é par!" << endl;
+    }
+
+    if(impar(n)){
+        cout << n << " é ímpar!" << endl;
+    }else {
+        cout << n << " não é ímpar!" << endl;
+    }
+    cout << endl;
+    return 0;
+}
+
 int par(int n)
 {
     if (n % 2 == 0)
@@ -24,26 +49,4 @@ int impar(int n)
     {
         return 1;
     }
-}
-
-int main()
-{
-    int n = 0;
-    cout << "DIGITE UM NUMERO INTEIRO: ";
-    cin >> n;
-    cout << endl;
-    
-    if(par(n)){
-        cout << n << " é par!" << endl;
-    }else {
-        cout << n << " não é par!" << endl;
-    }
-
-    if(impar(n)){
-        cout << n << " é ímpar!" << endl;
-    }else {
-        cout << n << " não é ímpar!" << endl;
-    }
-    cout << endl;
-    return 0;
 }
